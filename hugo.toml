@@ -1,0 +1,73 @@
+baseURL = "/"
+languageCode = "en-us"
+theme = "hugo-winston-theme"
+themesDir = "themes"
+title = "Data to Dream"
+paginate = 3
+pygmentsCodeFences = true
+pygmentsCodefencesGuessSyntax = true
+pygmentsUseClasses = true
+
+[module]
+  [module.hugoVersion]
+    extended = true
+    min = "0.55.0"
+
+[params]
+  google_analytics_id = ""
+  twitter_handle = "@datatodream"
+  showAuthorOnHomepage = false
+  showAuthorOnPosts = false
+  showIntroContentOnHomepage = true
+
+  showDatasetsOnHomepage = true
+  showEventsOnHomepage = true
+  showResourcesOnHomepage = true
+
+  showPostsOnHomepage = false
+  usePaginationOnHomepage = false
+  limitPostsOnHomepage = 3 # only used if usePaginationOnHomepage is false
+  sortPostsByDateOldestFirst = false
+  addDot = true
+  addFrame = true
+  highlightColor = '#D5DF00'
+  baseColor = "#ffffff"
+  baseOffsetColor = "#eaeaea"
+  headingColor = "#002A13"
+  textColor = "#4e5157"
+  dotColor = "#D5DF00"
+  enableGoogleFonts = true 
+  googleFontsUrl = "https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap"
+  fontFamilyHeading = "Poppins"
+  fontFamilyParagraph = "Helvetica"
+  fontFamilyMonospace = "monospace"
+
+# markdown config settings https://gohugo.io/getting-started/configuration-markup/#goldmark
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      hardWraps = false
+      unsafe = true
+      xhtml = false
+
+[menu]
+  [[menu.main]]
+    identifier = 'home'
+    name = 'home'
+    url = '/#home'
+    weight = 1
+  [[menu.main]]
+    name = "data"
+    identifier = "data"
+    weight = 2
+    url = "/#data"
+  [[menu.main]]
+    name = "community"
+    identifier = "community"
+    weight = 3
+    url = "/#community"
+  [[menu.main]]
+    name = "tools"
+    identifier = "tools"
+    weight = 4
+    url = "/#tools"
