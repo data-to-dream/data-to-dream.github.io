@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Fundings on Data to Dream</title>
+    <link>/funding/</link>
+    <description>Recent content in Fundings on Data to Dream</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language><atom:link href="/funding/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Understanding Policing in Houston</title>
+      <link>/funding/hpd/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/funding/hpd/</guid>
+      <description>How City Dollars Flow The City of Houston (COH) pays for city programs and services out of three main funds: the General Fund, the Enterprise Fund, and Special Revenue Funds. Aside from these, there are also Internal Service Funds which support providing services like health and disability benefits to City departments. These funds are separate from the Capital Project Funds that pay for voter-approved bond projects and other major physical improvements like streets and buildings.</description>
+    </item>
+    
+  </channel>
+</rss>
