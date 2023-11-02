@@ -1,6 +1,6 @@
 ---
 title: 'Understanding Policing in Houston'
-# image: images/writer.jpeg
+image: /images/police-budget.svg
 ---
 
 ## How City Dollars Flow
@@ -9,14 +9,7 @@ The City of Houston (COH) pays for city programs and services out of three main 
 
 Each operating fund consists of different sources of revenue. For example the General Fund consists of money from property taxes, sales taxes, franchise fees, and court fines. The Enterprise Funds consist of money from airport operations, water and sewer utilities, hotel occupancy taxes, and convention and entertainment facilities. The Special Revenue Funds include more than 30 specialized funds consisting of money from various revenue sources including police seizures (asset forfeiture), ParkHouston parking meters, and construction permits.
 
-| Revenues | Funds | Expenditures |
-|---|---|---|
-| Property Tax<br>Sales Tax | General Fund | Police & Fire<br>Public Works<br>Parks & Recreation<br>Solid Waste (Trash) |
-| Airports<br>Water and Sewer Fees<br>Convention & Entertainment<br>Hotel Occupancy Taxes | Enterprise Funds | Airports<br>Public Works |
-| Drainage Fee<br>Parking Meters<br>Construction Permits | Special Revenue Funds | Drainage and streets<br>City building maintenance<br>Houston Emergency Center |
-| Bonds<br>Airports<br>Drainage Fee<br>Water and Sewer Fees<br>Partners*| Capital Project Funds | Drainage and streets<br>City construction & renovation<br>Fleet Management<br>Information Technology (IT) |
-
-*Partners include private donations, TIRZs, Harris County, METRO, state and federal agencies, and airport and utility user fees
+![Revenues, funds and expenditures](/images/police-budget.svg)
 
 Of all the funds, the City has the most discretion over how General Fund dollars are spent. The General Fund dollars are used for Public Safety (the Police Department (HPD) and the Fire Department), Public Works, Parks and Recreation, libraries and other basic city services. Other funds are "restricted" and are only used for specific purposes. Various federal, state, and local laws set the rules on how these restricted funds can be spent. For example, the Airport fund is governed by federal laws, and all income from Airport operations must be used to cover aviation-related costs.
 
