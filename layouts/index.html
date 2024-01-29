@@ -13,6 +13,24 @@
     {{ end }}
   </div>
 
+  {{ if .Site.Params.showDatasetsOnHomepage }}
+    <section>
+      <h2>
+        <a name="data">
+            learn more about...
+        </a>
+      </h2>
+      {{ if .Site.Data.concerns.links }}
+        {{ range .Site.Data.concerns.links }}
+        <div class="summary">
+            <h3><a href="{{ .url }}">{{ .title }}</a></h3>
+            <p class="summary-description">{{ .description }}</p>
+        </div>
+        {{ end }}
+      {{ end }}
+    </section>
+  {{ end }}
+
   {{ if .Site.Params.showResourcesOnHomepage }}
     <section>
       <h2>
@@ -32,25 +50,25 @@
     </section>
   {{ end }}
 
-  {{ if .Site.Params.showDatasetsOnHomepage }}
-    <section>
-      <h2>
-        <a name="data">
-            learn more about...
-        </a>
-      </h2>
-      <p>Our datasets. Coming Nov 11th.</p>
-    </section>
-  {{ end }}
-
   {{ if .Site.Params.showEventsOnHomepage }}
     <section>
       <h2>
         <a name="community">
-            community conversations
+            get involved.
         </a>
       </h2>
-      <p>Workshops and presentations since 2020. Coming Nov 11th.</p>
+      <p>
+        There are great ways to stay engaged and learn more through community! Under each topic, we have listed organizations that are advocating for change with the issue area listed. You are encouraged to reach out to them directly, attend their meetings, and support their activities!
+      </p>
+      {{ if .Site.Data.community.events }}
+        {{ range .Site.Data.community.events }}
+        <div class="summary">
+            <h3><a href="{{ .url }}" target="_blank">{{ .title }}</a></h3>
+            <a class="summary-url" href="{{ .url }}" target="_blank">{{ .urlNickname }}</a>
+            <p class="summary-description">{{ .description }}</p>
+        </div>
+        {{ end }}
+      {{ end }}
     </section>
   {{ end }}
 

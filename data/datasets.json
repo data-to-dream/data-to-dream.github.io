@@ -1,3 +1,22 @@
 {
-    "data": []
+    "data": [{
+        "title": "Shotspotter Data () Quick Joined with NIBRS",
+        "description": "",
+        "link": "https://moksha-data-studio.metabaseapp.com/public/question/a5f0d624-1ae4-40c7-a223-2cc56fc0cae8",
+        "tasks": [
+            {
+                "isComplete": true,
+                "title": "Join Shotspotter with NIBRS"
+            },
+            {
+                "isComplete": false,
+                "title": "Join with Houston area geo-political bounds"
+            }
+        ],
+        "sources": [
+            "NIBRS",
+            "Shotspotter",
+            "City of Houston City Council District Bounds"
+        ]
+    }]
 }

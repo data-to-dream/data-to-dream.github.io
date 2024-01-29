@@ -1,0 +1,22 @@
+{
+    "links": [
+        {
+            "title": "Traffic Stops.",
+            "description": "HPD conducts hundreds of thousands of traffic stops every year, and Houston drivers are far more likely to experience police violence during traffic stops than in other Texas cities. Houston police agencies also frequently conduct dangerous car chases, placing residents at risk.",
+            "url": "/concerns/traffic-stops",
+            "urlNickname": "datatodream.com/concerns/traffic-stops"
+        },
+        {
+            "title": "Surveillance Technology.",
+            "description": "The City of Houston, Harris County, and Spring Branch ISD have purchased ShotSpotter, a costly and controversial technology that involves microphones installed in communities that experience gun violence.",
+            "url": "/concerns/surveillance-technology",
+            "urlNickname": "datatodream.com/concerns/surveillance-technology"
+        },
+        {
+            "title": "Police Budget.",
+            "description": "Police are the largest expense in the operating budgets for the City of Houston and Harris County. Due to the state’s anti-defund law, local governments face severe restrictions in reducing police spending.",
+            "url": "/concerns/police-budget",
+            "urlNickname": "datatodream.com/concerns/police-budget"
+        }
+    ]
+}
