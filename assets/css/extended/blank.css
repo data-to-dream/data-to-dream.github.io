@@ -43,3 +43,6 @@ section > p {
 a[name]:hover {
     text-decoration: none;
 }
+.footer {
+    font-size: 0.85em;
+}

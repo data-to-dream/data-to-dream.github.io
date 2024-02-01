@@ -41,8 +41,8 @@
       {{ if .Site.Data.resources.links }}
         {{ range .Site.Data.resources.links }}
         <div class="summary">
-            <h3><a href="{{ .url }}" target="_blank">{{ .title }}</a></h3>
-            <a class="summary-url" href="{{ .url }}" target="_blank">{{ .urlNickname }}</a>
+            <h3><a href="{{ .url }}" {{ if or (strings.HasPrefix .url "http") (strings.HasPrefix .url "https") }} target="_blank"{{ end }} >{{ .title }}</a></h3>
+            <a class="summary-url" href="{{ .url }}" {{ if or (strings.HasPrefix .url "http") (strings.HasPrefix .url "https") }} target="_blank"{{ end }} >{{ .urlNickname }}</a>
             <p class="summary-description">{{ .description }}</p>
         </div>
         {{ end }}
